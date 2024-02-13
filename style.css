@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+
+body{
+
+/* font-family: 'Protest Strike', sans-serif; */
+
+font-family: 'Protest Riot', sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+/* display: flex;
+
+align-items: center;
+
+justify-content: center; */
+
+min-height: 100vh;
+
+background-color: #333;
+
+
+
+}
+
+::selection{
+
+color: blue;
+
+background-color: red;
+
+}
+
+/* ..........navbar start.............. */
+
+
+.obida-img{
+
+width: 100px;
+
+height: 100px;
+
+border-radius: 50px;
+
+margin-right: 20px;
+
+}
+
+.oo{
+
+/* color: white; */
+
+/* background-color: cyan; */
+
+margin-right: 20px;
+
+}
+
+.aa{
+
+font-size: 30px;
+
+}
+
+/* ..........navbar end.............. */
+
+/*.......... carousel satrt........ */
+
+.zz{
+
+margin: 20px;
+
+}
+
+/*.......... carousel end........ */
+
+.ii{
+
+background-color: cyan;
+
+padding: 20px;
+
+}
+
+
+/* ////////////////////////// */
+
+h3{
+
+color: blue;
+
+cursor: pointer;
+
+}
+
+.am{
+
+height: 150px;
+
+background-color: cyan;
+
+margin: 10px;
+
+border-radius: 10px;
+
+padding: 20px;
+
+}
+
+.in{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+font-size: 50px;
+
+color: rgba(255, 255, 255, 0.922);
+
+cursor: pointer;
+
+}
+
+/* ////////////////////////////////// */
+
+.ww{
+
+background-color: rgb(0, 255, 221);
+
+
+
+}
+
+.vv{
+
+margin-bottom: 10px;
+
+}
+/* ////////////////////////////////// */
+
+section{
+
+    padding: 100px 200px;
+    
+    }
+    
+    .main{
+    
+    width: 100%;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    background: url(img/obida7.jpeg) no-repeat ;
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    background-attachment: fixed;
+    
+    }
+    
+    .main h2{
+    
+    color: white;
+    
+    font-size: 0.9em;
+    
+    font-weight: 400;
+    
+    }
+    
+    .main h2 span{
+    
+    display: inline-block;
+    
+    margin-top: 10px;
+    
+    color: #4e9eff;
+    
+    font-size: 3em;
+    
+    font-weight: 600;
+    
+    }
+    
+    .main{
+    
+    color: white;
+    
+    font-size: 2em;
+    
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    
+    margin-top: 10px;
+    
+    margin-bottom: 30px;
+    
+    }
+    
+    .nn{
+    
+    color: white;
+    
+    background-color: #3a6cf4;
+    
+    text-decoration: none;
+    
+    font-size: 1em;
+    
+    font-weight: 600;
+    
+    display: inline-block;
+    
+    padding: 0.9375em 2.1875em;
+    
+    letter-spacing: 1px;
+    
+    border-radius: 15px;
+    
+    margin-bottom: 40px;
+    
+    transition: 1.5s ease;
+    
+    box-shadow: 0 0 50px 50px inset;
+    
+text-decoration: none;
+
+    }
+    
+    .nn:hover{
+    
+    background-color: #0a49f6;
+    
+    transform: scale(1.1);
+    
+    box-shadow: 0 0 0 0 inset;
+    
+    }
+    
+    .social-icons a{
+    
+    color: cyan;
+    
+    font-size: 1.7em;
+    
+    padding-right: 30px;
+    
+}
+
+/* //////////////////// */
+
+
+.featured-content{
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    grid-gap: 500px 50px;
+    
+    /* display: flex; 
+    
+     justify-content: space-between; 
+    
+     align-items: center; */
+    
+    }
+    .picture{
+    position: relative;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: 1s;
+    }
+    .picture:hover{
+        transform: rotateY(180deg);
+    }
+    
+    .featured-item .picture .image-face{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        backface-visibility: hidden;
+    }
+    .featured-item .picture .image-back{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: rotateY(180deg);
+    }
+    
+    .featured-content .featured-item .picture img{
+        width: 100%;
+        height: 400px;
+       padding: 10px;
+    }
+    .image-back .links{
+        position: absolute;
+        top:180px;
+        left: 100px;
+        text-align: center;
+    
+    }
+    .links li{
+        width: 30px;
+       height: 40px;
+        display: inline-block;
+        text-align: center;    
+    
+    }
+    .links li i{
+        line-height: 50px;
+        font-size: 25px;
+        color: gold;
+        display: flex;     
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .overlay{
+        position: relative;
+        top: 370%;
+    }
+    .overlay i{
+        color:gold
+    } 
+    .overlay h3,.opinion h4{
+        color:cyan;
+        font-size: 25px;
+    } 
+    
+    #sss{
+    
+    color: black;
+}
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+.box{
+
+position: relative;
+
+width: 400px;
+
+height: 400px;
+
+background: repeating-conic-gradient( from var(--a), #ff2770 0%, #ff2770 5%, 
+
+transparent 5%, transparent 40%, #ff2770 50%);
+
+animation: animate 4s linear infinite;
+
+border-radius: 20px;
+
+}
+
+@property --a{
+
+syntax: '<angle>';
+
+inherits: false;
+
+initial-value: 0deg;
+
+}
+
+@keyframes animate{
+
+0%{
+
+--a:0deg
+
+}
+
+100%{
+
+--a: 360deg
+
+}
+
+}
+
+.box::before{
+
+content: '';
+
+position: absolute;
+
+width: 100%;
+
+height: 100%;
+
+
+background: repeating-conic-gradient( from var(--a), red 0%, red 5%, 
+
+transparent 5%, transparent 40%, red 50%);
+
+animation: animate 4s linear infinite;
+
+animation-delay: -1s;
+
+border-radius: 20px;
+
+}
+
+
+.box::after{
+
+content: '';
+
+position: absolute;
+
+inset: 10px;
+
+/* background: #2d2d39; */
+
+background: url(img-8.jpg);
+
+border-radius: 15px;
+
+border: 8px solid #25252b;
+
+}
+
+.car{
+
+margin: 10px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+
+    
+.Specialcategory .line{
+    
+    display: block;
+    
+    width: 100px;
+
+    height: 5px;
+    
+    background-color: #7c5345;
+    
+    transition: 0.5s;
+    
+    border-radius: 10px;
+
+}
+    
+.Specialcategory:hover .line{
+    
+    width: 150px;
+    
+}
+    
+.Specialcategory {
+    
+padding: 5px 0;
+    
+}
+
+.fff{
+
+border-radius: 5px;
+
+display: inline;
+
+margin-right: 20px;
+
+cursor: pointer;
+
+opacity: 0.7;
+
+transition: 1s;
+
+background-color: cyan;
+
+}
+
+.fff:hover{
+
+opacity: 1;
+
+transition: 1s;
+
+
+}
+
+.ffff{
+
+    border-radius: 5px;
+    
+    display: inline;
+    
+    margin-right: 20px;
+    
+    cursor: pointer;
+    
+    opacity: 0.7;
+    
+    transition: 1s;
+    
+    background-color: cyan;
+    
+    }
+    
+    .ffff:hover{
+    
+    opacity: 1;
+    
+    transition: 1s;
+    
+    color: red;
+    
+    background-color: rebeccapurple;
+
+}
+
+.bbb{
+
+cursor: pointer;
+
+}
+
+section{
+
+    padding: 100px 200px;
+    
+    }
+    
+    .main{
+    
+    width: 100%;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    background: url(img/obida7.jpeg) no-repeat ;
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    background-attachment: fixed;
+    
+    }
+    
+    .main h2{
+    
+    color: white;
+    
+    font-size: 0.9em;
+    
+    font-weight: 400;
+    
+    }
+    
+    .main h2 span{
+    
+    display: inline-block;
+    
+    margin-top: 10px;
+    
+    color: #4e9eff;
+    
+    font-size: 3em;
+    
+    font-weight: 600;
+    
+    }
+    
+    .main{
+    
+    color: white;
+    
+    font-size: 2em;
+    
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    
+    margin-top: 10px;
+    
+    margin-bottom: 30px;
+    
+    }
+    
+    .main-{
+    
+    color: white;
+    
+    background-color: #3a6cf4;
+    
+    text-decoration: none;
+    
+    font-size: 1em;
+    
+    font-weight: 600;
+    
+    display: inline-block;
+    
+    padding: 0.9375em 2.1875em;
+    
+    letter-spacing: 1px;
+    
+    border-radius: 15px;
+    
+    margin-bottom: 40px;
+    
+    transition: 1.5s ease;
+    
+    box-shadow: 0 0 50px 50px inset;
+    
+    }
+    
+    .main-:hover{
+    
+    background-color: #0a49f6;
+    
+    transform: scale(1.1);
+    
+    box-shadow: 0 0 0 0 inset;
+    
+    }
+    
+    .social-icons a{
+    
+    color: cyan;
+    
+    font-size: 1.7em;
+    
+    padding-right: 30px;
+    
+}
+
+.wwww{
+
+display: block;
+
+justify-content: center;
+
+align-items: center;
+
+margin-left: 1150px;
+
+font-size: 50px;
+
+background-color: blue;
+
+color: rgb(126, 250, 250);
+
+margin-bottom: 20px;
+
+}
